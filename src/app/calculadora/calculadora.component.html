@@ -1,0 +1,80 @@
+<div class="contenedor-principal">
+  <input class="form-control" [(ngModel)]="pantalla" [disabled]="true" placeholder="0.00">
+
+  <div class="row">
+    <div class="d-flex justify-content-end">
+      <button type="button" class="mgn btn btn-primary" (click)="limpiarPantalla()">C</button>
+    </div>
+  </div>
+
+  <div class="flex flex-column">
+    <div class="row justify-content-around">
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarNumero('7')">7</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarNumero('8')">8</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarNumero('9')">9</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarOperacion('/')">/</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="obtenerRaizCuadrada()">Raíz</button>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarNumero('4')">4</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarNumero('5')">5</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarNumero('6')">6</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarOperacion('*')">*</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="obtenerModulo()">%</button>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarNumero('1')">1</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarNumero('2')">2</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarNumero('3')">3</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarOperacion('-')">-</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="obtenerUnoEntreX()">1/x</button>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarNumero('0')">0</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="cambiarSigno()">+/-</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="agregarPunto()">.</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="guardarOperacion('+')">+</button>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="calcularDosOperandos()">=</button>
+      </div>
+    </div>
+  </div>
+</div>
