@@ -1,5 +1,10 @@
 # CalculadoraApp
 
+![image](https://user-images.githubusercontent.com/89861246/171665611-ed4cd22e-7ade-48db-8788-cff8a85ecf53.png)
+
+![image](https://user-images.githubusercontent.com/89861246/171665700-c9708368-2763-4ca5-a835-bdfd35e01855.png)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
